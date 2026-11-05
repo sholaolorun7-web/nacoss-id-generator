@@ -1,0 +1,9 @@
+@page{size:ID-1 86mm 54mm;margin:0}
+@media print{
+ html,body{background:#fff!important;margin:0!important;padding:0!important;width:86mm;height:54mm;overflow:hidden}
+ body *{visibility:hidden!important}
+ #print-card,#print-card *{visibility:visible!important}
+ #print-card{position:absolute!important;left:0!important;top:0!important;width:86mm!important;height:54mm!important;margin:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;aspect-ratio:auto!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ #print-card .id-top{height:25%}#print-card .id-body{height:63%}#print-card .id-bottom{height:12%}
+ .no-print{display:none!important}
+}
